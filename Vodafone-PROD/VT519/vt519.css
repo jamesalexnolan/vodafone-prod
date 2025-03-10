@@ -1,0 +1,251 @@
+/*payment cards*/
+.vt519_container {
+    display: flex;
+    justify-content: center;
+    height: 565px;
+}
+
+.vt519_cards {
+    display: flex;
+    gap: 20px;
+    height: auto;
+}
+
+.vt519_card {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0px;
+    width: 500px;
+}
+
+.vt519_img_container {
+    background: #F2F2F2;
+    border-radius: 6px;
+}
+
+button[aria-label="Go to checkout"],
+a[aria-label="Pay off before upgrading"] {
+    width: 100% !important;
+}
+
+.vt519_img_container {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.vt519_img_container>img {
+    height: auto;
+}
+
+.vt519_CTA_container_2,
+.vt519_CTA_container_1 {
+    margin-top: 27px;
+}
+
+.vt519_CTA_container_1>div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    height: 44px;
+    min-width: 152px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 12px 20px;
+}
+
+.vt519_text_container {
+    height: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0 20px 0;
+}
+
+div[data-component-name="upgrade-plan-info"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vt519_infoSection_link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: underline;
+}
+
+/*mobile changes*/
+@media only screen and (max-width: 970px) {
+    .vt519_container {
+        height: unset;
+    }
+
+    .vt519_cards {
+        flex-direction: column;
+        height: min-content;
+    }
+
+    .vt519_card {
+        width: unset;
+    }
+
+    .vt519_img_container {
+        height: 30%;
+    }
+
+    .vt519_CTA_container_2,
+    .vt519_CTA_container_1 {
+        margin-top: unset;
+    }
+
+    .vt519_img_container>img {
+        width: 30%;
+    }
+}
+
+/*payment cards -- END*/
+
+/*pop-up styling*/
+.mpx-popup {
+    position: fixed;
+    z-index: 999999 !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(60%) scale(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.mpx-popup.visible {
+    transform: translateY(0) scale(1);
+    background-color: rgba(16, 16, 16, 0.4);
+    transition: background-color 1s ease;
+}
+
+.mpx-content {
+    position: relative;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 890px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 5px 10px 10px rgba(16, 16, 16, 0.4);
+    padding-bottom: 30px;
+}
+
+.mpx-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    max-height: calc(100vh - 20px);
+}
+
+.mpx-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.mpx-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.mpx-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.mpx-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.mpx-exit {
+    width: 100%;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 95%;
+    position: sticky;
+    top: 0;
+    padding: 10px 0 10px 0;
+}
+
+.mpx-close-btn {
+    font-size: 30px;
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+
+.mpx-close-btn:hover {
+    color: #0050a8;
+}
+
+.mpx-content-text {
+    margin: auto;
+    position: inherit;
+    width: 100%;
+    padding: 15px;
+}
+
+.mpx-content-text h2 {
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.mpx-padding {
+    padding-left: 40px !important;
+    padding-right: 50px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.mpx-text-one {
+    transform: translateX(30px);
+    margin-top: 7px;
+}
+
+.mpx-text-section h5 {
+    margin: 0;
+    padding: 6px 0 6px 0;
+}
+
+.mpx-text-two {
+    width: 110%;
+    transform: translateX(-20px);
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+/*mobile*/
+@media only screen and (max-width: 970px) {
+
+    .mpx-content {
+        width: 95%;
+    }
+
+    .mpx-exit {
+        margin-left: 87%;
+    }
+
+    .mpx-content-text h2 {
+        font-size: 30px;
+        line-height: inherit;
+    }
+
+    .mpx-text-two {
+        width: 100%;
+    }
+}

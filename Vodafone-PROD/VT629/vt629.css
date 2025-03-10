@@ -1,0 +1,336 @@
+ /*YOU MIGHT LIKE*/
+ .vt629-p1-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vt629-p1-1-element,
+.vt629-p1-2-element,
+.vt629-p1-3-element {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.vt610-right-elems {
+    flex: 1;
+}
+
+.vt629-p1-1-element {
+    flex: 1;
+    color: white;
+    background-image: linear-gradient(to right, #a20e0e, #e60000);
+}
+
+.vt629-p1-2-element {
+    color: black;
+    background: white;
+}
+
+.vt629-p1-3-element {
+    color: black;
+    background: white;
+}
+
+/*content container adjustment*/
+.vt629-p1-1-content,
+.vt629-p1-2-content,
+.vt629-p1-3-content {
+    padding: 15px;
+}
+
+/*img adjustments*/
+.vt629-p1-1-img>div,
+.vt629-p1-2-img>div,
+.vt629-p1-3-img>div {
+    position: initial;
+    background-repeat: no-repeat;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.vt629-p1-1-img>div {
+    background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/images/vfcon127897.jpg");
+    background-size: 400px;
+    width: 450px;
+    height: 250px;
+    background-position-y: 2px;
+}
+
+.vt629-p1-2-img>div,
+.vt629-p1-3-img>div {
+    background-size: 550px;
+    width: 250px;
+    height: 250px;
+    background-position-x: -250px;
+}
+
+/*p1 content*/
+.vt629-p1-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*p2 and p3 content*/
+.vt629-p1-2-content,
+.vt629-p1-3-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*text adjustments*/
+.vt629-p1-1-text,
+.vt629-p1-2-text,
+.vt629-p1-3-text {
+    padding: 5px;
+}
+
+.vt629-p1-1-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.vt629-p1-1-text>h3,
+.vt629-p1-2-text>h3,
+.vt629-p1-3-text>h3 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.vt629-p1-2-text>a,
+.vt629-p1-3-text>a {
+    color: #a20e0e;
+    display: flex;
+    align-items: center;
+}
+
+.vt629-p1-1-text>a {
+    display: flex;
+    align-items: center;
+}
+
+.vt629-p1-1-text>a>svg,
+.vt629-p1-2-text>a>svg,
+.vt629-p1-3-text>a>svg {
+    margin-left: 5px;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 639px) {
+    .vt629-p1-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .vt629-p1-2-content,
+    .vt629-p1-3-content {
+        flex-direction: column;
+    }
+
+    .vt629-p1-1-text {
+        margin-top: 5px;
+    }
+
+    .vt629-p1-2-content,
+    .vt629-p1-3-content {
+        text-align: center;
+    }
+
+    .vt629-p1-2-text>a,
+    .vt629-p1-3-text>a {
+        justify-content: center;
+    }
+
+    .vt629-p1-2-img>div,
+    .vt629-p1-3-img>div {
+        background-size: 450px;
+        background-position-y: 20px;
+        background-position-x: center;
+    }
+
+    .vt629-p1-1-img>div {
+        background-size: 650px;
+        width: 250px;
+    }
+}
+
+/*MORE TO LOVE*/
+.vt629-p2-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vt629-p2-1-element,
+.vt629-p2-2-element,
+.vt629-p2-3-element {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.vt610-right-elems {
+    flex: 1;
+}
+
+.vt629-p2-1-element {
+    flex: 1;
+    color: black;
+    background: white;
+}
+
+.vt629-p2-2-element {
+    color: black;
+    background: white;
+}
+
+.vt629-p2-3-element {
+    color: black;
+    background: white;
+}
+
+/*content container adjustment*/
+.vt629-p2-1-content,
+.vt629-p2-2-content,
+.vt629-p2-3-content {
+    padding: 15px;
+}
+
+/*img adjustments*/
+.vt629-p2-1-img>div,
+.vt629-p2-2-img>div,
+.vt629-p2-3-img>div {
+    position: initial;
+    background-repeat: no-repeat;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.vt629-p2-1-img>div {
+    background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/images/vfcon127897.jpg");
+    background-size: 400px;
+    width: 450px;
+    height: 250px;
+    background-position-y: -8px;
+}
+
+.vt629-p2-2-img>div,
+.vt629-p2-3-img>div {
+    background-size: 550px;
+    width: 250px;
+    height: 250px;
+    background-position-x: -260px;
+}
+
+/*p2 content*/
+.vt629-p2-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*p2 and p3 content*/
+.vt629-p2-2-content,
+.vt629-p2-3-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/*text adjustments*/
+.vt629-p2-1-text,
+.vt629-p2-2-text,
+.vt629-p2-3-text {
+    padding: 5px;
+}
+
+.vt629-p2-1-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.vt629-p2-1-text>h3,
+.vt629-p2-2-text>h3,
+.vt629-p2-3-text>h3 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.vt629-p2-2-text>a,
+.vt629-p2-3-text>a,
+.vt629-p2-1-text>a {
+    color: #a20e0e;
+    display: flex;
+    align-items: center;
+}
+
+.vt629-p2-1-text>a>svg,
+.vt629-p2-2-text>a>svg,
+.vt629-p2-3-text>a>svg {
+    margin-left: 5px;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 639px) {
+    .vt629-p2-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .vt629-p2-2-content,
+    .vt629-p2-3-content {
+        flex-direction: column;
+    }
+
+    .vt629-p2-1-text {
+        margin-top: 5px;
+    }
+
+    .vt629-p2-2-content,
+    .vt629-p2-3-content {
+        text-align: center;
+    }
+
+    .vt629-p2-2-text>a,
+    .vt629-p2-3-text>a {
+        justify-content: center;
+    }
+
+    .vt629-p2-2-img>div,
+    .vt629-p2-3-img>div {
+        background-size: 450px;
+        background-position-y: 20px;
+        background-position-x: center;
+    }
+
+    .vt629-p2-1-img>div {
+        background-size: 550px;
+        width: 250px;
+    }
+}
+
+/*Footer adjustments*/
+.vt629_footerCondi {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 620px;
+    text-size-adjust: 100%;
+    font-family: Vodafone, "Open Sans", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    box-sizing: inherit;
+    color: rgb(13, 13, 13);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+}

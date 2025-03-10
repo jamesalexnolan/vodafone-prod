@@ -1,0 +1,18 @@
+    /*hero banner changes*/
+    .vt552_hero_background_img {
+        background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/images/vfcon127115.jpg") !important;
+    }
+
+    /*tablet*/
+    @media only screen and (max-width: 970px) {
+        .vt552_hero_background_img {
+            background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/images/vfcon127116.jpg") !important;
+        }
+    }
+
+    /*mobile*/
+    @media only screen and (max-width: 640px) {
+        .vt552_hero_background_img {
+            background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/images/vfcon127117.jpg") !important;
+        }
+    }

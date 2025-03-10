@@ -1,0 +1,99 @@
+.cro-cta-cont {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0 20px 0;
+    width: 100%;
+}
+
+.cro-ctas {
+    justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+    min-width: 1272px;
+    padding: 0px 20px;
+}
+
+.cro-ctas>button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 13, 13);
+    border: 1px solid rgb(126, 126, 126);
+    text-align: center;
+    border-radius: 6px;
+    width: 25%;
+    height: 100px;
+}
+
+.selected-data-option {
+    color: rgb(0, 105, 124) !important;
+    border: 1px solid rgb(0, 105, 124) !important;
+    box-shadow: rgb(0, 105, 124) 0px 0px 0px 1px inset !important;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cro-hidden-data-options {
+    display: none;
+}
+
+.cro-header {
+    font-size: 20px;
+    color: rgb(13, 13, 13);
+    margin: 0px auto;
+    padding: 0px 40px;
+    font-weight: bold;
+    max-width: 1280px;
+}
+
+.cro-tandc {
+    font-size: 17px;
+    color: rgb(13, 13, 13);
+    margin: 0px auto;
+    padding: 0px 40px;
+    margin-bottom: 25px;
+    max-width: 1280px;
+}
+
+.cro-grid-changes {
+    background: none !important;
+    color: black !important;
+}
+
+.vfuk-PlansContainer__bingo-step-container-spacing>div:nth-child(2) {
+    padding: 0 20px 0 20px;
+}
+
+/*mobile layout*/
+@media (max-width: 768px) {
+    .cro-ctas {
+        width: 50%;
+        gap: 10px;
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        min-width: unset;
+        padding: unset;
+    }
+
+    .cro-ctas>button {
+        width: auto;
+        height: 80px;
+    }
+
+    .cro-cta-cont {
+        padding: 20px 0 25px 0;
+    }
+
+    .cro-tandc {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .cro-header {
+        padding: 0px 36px;
+    }
+}

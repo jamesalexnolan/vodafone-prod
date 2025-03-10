@@ -1,0 +1,223 @@
+/*CTA styles*/
+.y77vt750 {
+    width: 250px;
+}
+
+#checkout-link-CTA {
+    width: 100%;
+}
+
+.k77vt750 {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    transition: 0.4s;
+    line-height: 12px;
+    width: 100%;
+    height: 44px;
+    min-width: 152px;
+    font-weight: 400;
+    color: rgb(25, 23, 20);
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.cro-hide {
+    display: none !important;
+}
+
+.cro-background-blur {
+    filter: blur(10px);
+    -webkit-filter: blur(3px);
+    opacity: 70%;
+}
+
+.cro-stop-scroll {
+    overflow-y: hidden;
+}
+
+/*Modal styles*/
+.vt750-modal-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #262525;
+    color: #FFFFFF;
+    flex-direction: column;
+    padding: 16px;
+    max-height: 90%;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.vt750-modal-container .p {
+    font-weight: 100;
+}
+
+.vt50-header_main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.opened-accordion_chevron {
+    transform: rotate(180deg);
+}
+
+.vt750-modal-footer {
+    border-top: solid;
+    border-width: thin;
+    border-color: #80808057;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-pricing-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.vt750-CTA {
+    display: flex;
+    justify-content: center;
+}
+
+.cro-checkout-cta {
+    background: white;
+    width: 100%;
+}
+
+.cro-checkout-cta>a {
+    color: black;
+    text-decoration: none;
+    background: white;
+    font-size: 16px;
+    padding: 9px 24px 9px 24px;
+}
+
+.pricing-col-1>p:nth-child(1) {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.pricing-col-1>p:nth-child(2) {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.pricing-col-1>p:nth-child(2)>span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.pricing-col-2>p:nth-child(1) {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.pricing-col-2>p:nth-child(2) {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.pricing-col-2>p:nth-child(2)>span {
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+#plan-title-heading {
+    width: 80%;
+}
+
+#plan-title-heading>p {
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.plan-benefit-item {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    padding: 7.5px 0px 7.5px 0px;
+}
+
+.plan-benefit-item_col-2 {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-benefit-item_col-2>p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.plan-benefit-item_col-2>h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plan-benefits-list {
+    list-style-image: url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 24 11" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path d="M9.70287 13.838L17.997 5L20.1845 7.05294L9.70936 18.215L4 12.1673L6.18146 10.1079L9.70287 13.838Z" fill="white"></path></svg>');
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-benefits-list_item {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px 0px 2px 0px;
+}
+
+#plan-benefits {
+    padding-bottom: 10px;
+}
+
+.vt750-modal-content {
+    overflow: auto;
+}
+
+#modal-p-elem {
+    font-weight: 100;
+}
+
+.plan-benefits-list_item {
+    font-weight: 100;
+}
+
+/*mobile styles*/
+@media only screen and (max-width: 800px) {
+    .y77vt750 {
+        width: revert;
+    }
+}
+
+/*desktop styles*/
+@media only screen and (min-width: 800px) {
+    .vt750-modal-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .vt750-plan-details,
+    .vt750-CTA {
+        width: 45%;
+    }
+
+    .vt750-CTA {
+        padding: 20px;
+    }
+}

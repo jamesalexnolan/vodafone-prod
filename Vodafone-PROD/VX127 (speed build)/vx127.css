@@ -1,0 +1,7 @@
+.cro-sub_header {
+    text-decoration: underline;
+}
+
+.cro-sub_header:hover {
+    cursor: pointer;
+}

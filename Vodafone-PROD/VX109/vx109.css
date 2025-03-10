@@ -1,0 +1,24 @@
+    /*ACQ*/
+    .vx109-cta-double {
+        color: black !important;
+        background: none !important;
+        border: solid 3px !important;
+        margin-left: 20px;
+    }
+
+    [aria-label="Build your own plan"] {
+        width: 400px !important;
+    }
+
+    /*Mobile*/
+    /*mobile layout*/
+    @media (max-width: 768px) {
+        .vx109-cta-double {
+            margin-left: unset;
+            margin-top: 20px;
+        }
+
+        [aria-label="Build your own plan"] {
+            width: 100% !important;
+        }
+    }

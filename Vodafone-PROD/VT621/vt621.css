@@ -1,0 +1,61 @@
+/* choose plan button */
+.vt621_button_1_Styling {
+    background: white !important;
+    color: black !important;
+    border-radius: 8px !important;
+    font-weight: 600;
+}
+
+/* adjust border color */
+#plans-offers>div>div {
+    border-color: #F28705 !important;
+    border-radius: 8px 8px 8px 8px;
+    background: #262525;
+}
+
+#plans-offers>div>div:nth-of-type(2) {
+    border-color: #F28705 !important;
+    border-radius: 0px 8px 8px 8px;
+    background: #262525;
+}
+
+/* flag adjustment */
+.vt621_flag_styling {
+    background: #F28705 !important;
+    border-radius: 8px 8px 0px 0px !important;
+}
+
+.vt621_flag_styling_p {
+    color: black !important
+}
+
+.vt621_border-radius {
+    border-radius: 8px !important;
+}
+
+/*pill styling*/
+.vt621_pill {
+    padding: 5px 12px 5px 12px;
+    background: #045E7A;
+    color: white;
+    font-weight: 500;
+    border-radius: 10%/60%;
+    font-size: 14px;
+}
+
+.vt621_pill-small-border {
+    border-radius: 15%/60%;
+}
+
+.vt621_pill_flex {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+/*mobile styling*/
+@media only screen and (max-width: 640px) {
+    .vt621_pill {
+        font-weight: 500;
+    }
+}

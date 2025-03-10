@@ -1,0 +1,36 @@
+.pn-cro-pill-container {
+    display: flex;
+    padding: 4px 12px;
+    background: rgb(0, 105, 124);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pn-cro-pill-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.pn-cro-pill-content>p {
+    font-size: smaller;
+}
+
+.pn-cro-icon-stylings {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/*Mobile*/
+@media (max-width: 768px) {
+    .pn-cro-icon-stylings {
+        height: 27px;
+        margin-right: 10px;
+    }
+}

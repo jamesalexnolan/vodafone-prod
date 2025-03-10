@@ -1,0 +1,30 @@
+    /* VX64 */
+
+    /* Page 1 (existingcustomer1) */
+    /* whoever will be here -> please remove ?h=250 from the assets URLs provided in VSTS!") */
+    /* whoever will be here -> please remove ?h=250 from the assets URLs provided in VSTS!") */
+    /* whoever will be here -> please remove ?h=250 from the assets URLs provided in VSTS!") */
+
+    [data-component-name="StandardBanner"]>div>div>div:nth-child(2)>div>div {
+        background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/webcontent/vfcon132309.webp");
+        background-size: cover;
+        position: relative;
+    }
+
+    @media (min-width: 768px) {
+        [data-component-name="StandardBanner"]>div>div>div:nth-child(2)>div>div {
+            background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/webcontent/vfcon132304.webp");
+        }
+    }
+
+    @media (min-width: 1024px) {
+        [data-component-name="StandardBanner"]>div>div>div:nth-child(2)>div>div {
+            background-image: url("https://www.vodafone.co.uk/cs/groups/public/documents/webcontent/vfcon132302.webp");
+        }
+    }
+
+    /* 
+      @media (min-width: 1025px) for large
+      @media (min-width: 768px) for medium
+      normal for small
+    */

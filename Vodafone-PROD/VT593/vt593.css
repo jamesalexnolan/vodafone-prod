@@ -1,0 +1,27 @@
+    /*mobile*/
+    @media only screen and (max-width: 970px) {
+        div#content>div:nth-of-type(6) .spring .section .grid.promo-card .promo-card--inner div:nth-child(2)>a>div.background__image {
+            background-image: url(https://www.vodafone.co.uk/cs/groups/public/documents/images/welsh-rugby-union-women-m.png) !important;
+        }
+    }
+
+    /*desktop*/
+    @media only screen and (min-width: 970px) {
+        div#content>div:nth-of-type(6) .spring .section .grid.promo-card .promo-card--inner div:nth-child(2)>a>div.background__image {
+            background-image: url(https://www.vodafone.co.uk/cs/groups/public/documents/images/welsh-rugby-union-women.png) !important;
+        }
+    }
+
+    /*text change*/
+    div#content>div:nth-of-type(6) .spring .section .grid.promo-card .promo-card--inner div:nth-child(2)>a h3.block__text--heading:after {
+        content: "Principle Partner to the Welsh Rugby Union";
+        visibility: visible;
+        display: block;
+        line-height: initial;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+
+    div#content>div:nth-of-type(6) .spring .section .grid.promo-card .promo-card--inner div:nth-child(2)>a p.block__text--shout:after {
+        content: "";
+    }

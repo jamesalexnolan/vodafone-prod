@@ -1,0 +1,91 @@
+/*accordion functionality*/
+.vt697_close {
+    display: none;
+    transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.vt697_hide {
+    display: none !important;
+}
+
+.vt697_center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*CTA styling*/
+.cro-CTA-Content {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-size-adjust: 100%;
+    font-family: Vodafone, "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: rgb(13, 13, 13);
+    box-sizing: inherit;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cro-CTA-Content>p {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-size-adjust: 100%;
+    font-family: Vodafone, "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    transition: all 0.4s ease 0s;
+    line-height: 12px;
+    height: 44px;
+    min-width: 152px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 13, 13);
+    border-radius: 6px;
+    border: 2px solid rgb(13, 13, 13);
+    padding: 16px 24px;
+    width: auto;
+}
+
+.cro-CTA-Content>p:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(49, 49, 49);
+    border-color: rgb(49, 49, 49);
+    transition: 0.4s;
+}
+
+.cro-AOM-CTA-Container-close {
+    margin: 10px 0 25px 0;
+}
+
+.cro-AOM-CTA-Container-close>div>div {
+    margin-top: 25px;
+}
+
+.view-offers-cta_content::before {
+    content: "View all my personalised offers"
+}
+
+.hide-offers-cta_content::before {
+    content: "Hide all my personalised offers"
+}
+
+/*card styling*/
+.cro-AOM-Card_centering {
+    display: grid !important;
+    justify-items: center;
+}
