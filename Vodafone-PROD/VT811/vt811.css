@@ -1,0 +1,110 @@
+    .vt811-display-hidden {
+        display: none;
+    }
+
+    .vt811-container {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        margin: 24px 0;
+    }
+
+    .vt811-ctas {
+        display: flex;
+        gap: 8px;
+    }
+
+    @media only screen and (min-width: 800px) {
+        .vt811-ctas {
+            width: 100%;
+        }
+    }
+
+    /* 
+    @media only screen and (max-width: 799px) {
+        .vt811-ctas {
+            gap: 8px;
+        }
+    } */
+
+    .vt811-cta-container {
+        flex: 1 1 0;
+        background: #fff;
+        border: 2px solid #bfcfd6;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+        transition: border-color 0.2s, box-shadow 0.2s;
+        cursor: pointer;
+        padding: 24px 12px 18px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 220px;
+        min-height: 110px;
+    }
+
+    .vt811-cta-container.selected,
+    .vt811-cta-container:active {
+        border-color: #00697C;
+        box-shadow: 0 2px 8px rgba(0, 124, 146, 0.08);
+        /*background: rgb(182 244 255 / 24%);*/
+    }
+
+    .vt811-cta-container:hover {
+        border-color: #00697C;
+    }
+
+    .vt811-cta-container>div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .vt811-cta-container>div>svg {
+        margin-bottom: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vt811-cta-container>div>h5 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 0 0 4px 0;
+        color: #0d0d0d;
+    }
+
+    .vt811-cta-container>div>p {
+        font-size: 0.95rem;
+        color: #222;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    .vt811-cta-container.selected h5,
+    .vt811-cta-container.selected p {
+        font-weight: bold;
+    }
+
+    .vt811-pre_built-header-p {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .vt811-intro-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        width: 100%;
+        height: 84px;
+    }
+
+    .vt811-intro-text>h5 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
